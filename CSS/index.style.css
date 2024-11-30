@@ -1,0 +1,525 @@
+/*Index.html*/
+/*Header du site web index*/
+body{
+    border: solid;
+    border-color: goldenrod;
+    background-color:rgb(110, 60, 2);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.header{
+    margin-right: 100%;
+    margin-left: 100%;
+    height:9rem;
+    margin:1rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    justify-content: center;
+     background-color:goldenrod;
+}
+img{
+    width: 12rem;
+    max-width: 100%;
+}
+nav ul li{
+    list-style-type: none;
+    display : inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.1rem;
+}
+ul li a{
+    color:white;
+    font-size: large;
+    margin-left: auto;
+    letter-spacing: 0.1rem;
+}
+ul li a:hover{
+   color:rgb(241, 2, 2);
+   text-decoration: underline;
+   margin-left: auto;
+}
+.menu li a{
+    text-decoration: none;
+}
+.menu-header{
+border-image-width: auto;
+}
+.h1-index{
+    font-size: 0.8rem;
+    margin: 1rem;
+    max-width: 30rem;
+    padding:1rem;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img1{
+    width: 7rem;
+    max-width: 100%;
+    max-height: 100%;
+    right: 100%;
+    padding: 1rem;
+    padding-bottom: 3.4rem;
+    margin-left: 1rem;
+    border-color: goldenrod;
+    background-color: goldenrod;
+    display:grid;
+    float: left;
+    left: auto;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}   
+.img2{
+    margin: 1rem;
+    padding: 2rem;
+    border-color: goldenrod;
+    border: goldenrod 1rem solid;
+    width: 50rem;
+    padding: 1rem;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    min-width:auto ;
+    min-height:auto ;
+}
+.formulaire1{
+    
+    background-color: goldenrod;
+    width: 60rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+/*Main du site web index*/
+main{
+    margin-left: auto;
+    margin-right: auto;
+}
+.club-favori-1{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    padding: 1rem;
+    width: 25rem;
+    background-color: goldenrod;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.7rem;
+}
+.main-pngs-1{
+    padding: 1rem;
+    text-align: center;
+    max-width: auto;
+    max-height: auto;
+    background-color: goldenrod;
+    width:12rem;
+    box-shadow: 1rem 1rem 1rem rgb(146, 95, 0);
+}
+.main-pngs-2{
+    padding: 1rem;
+    text-align: center;
+    background-color: goldenrod;
+    width: 12rem;
+    box-shadow: 1rem 1rem 1rem rgb(146, 95, 0);
+}
+.main-pngs-3{
+    padding: 1rem;
+    text-align: center;
+    background-color: goldenrod;
+    width: 12rem;
+    box-shadow: 1rem 1rem 1rem rgb(146, 95, 0);
+}
+.main-pngs-123{
+    padding: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-pngs-4{
+    padding: 1rem;
+    text-align: center;
+    width: 12rem;
+    background-color: goldenrod;
+    box-shadow: 1rem 1rem 1rem rgb(146, 95, 0);
+}
+.main-pngs-5{
+    padding: 1rem;
+    text-align: center;
+    width: 12rem;
+    background-color: goldenrod;
+    box-shadow: 1rem 1rem 1rem rgb(146, 95, 0);
+}
+.main-pngs-6{
+    padding: 1rem;
+    text-align: center;
+    width: 12rem;
+    background-color: goldenrod;
+    box-shadow: 1rem 1rem 1rem rgb(146, 95, 0);
+}
+.main-pngs-456{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    margin-right:auto ;
+    margin-left:auto ;
+}
+.club-pas-cher-1{
+    padding: 1rem;
+    width: 20rem;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titre-social-network{
+    color: white;
+    background-color: goldenrod;
+    width: 18rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+.icons-socials-networks{
+    height: 1rem;
+    width: 15rem;
+    background-color: goldenrod;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    max-width: 100%;
+}
+/*Footer du site web index*/
+.aligns-footer{
+    background-color: goldenrod;
+    width: 20rem;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.70rem;
+    padding:1rem;
+    font-size: 1rem;
+}
+.align-footer-1{
+    border: solid;
+    color: white;
+    text-align: center;
+    display:block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.align-footer-2{
+    border: solid;
+    color: white;
+    text-align: center;
+    display:block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.align-footer-3{
+    border: solid;
+    color: white;
+    text-align: center;
+    display:block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.mentions-legales{
+     background-color: goldenrod;
+     margin: 1rem;
+     padding: 1rem;
+     width: 30%;
+     height: 60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+}
+/*Media Querries*/
+@media  (max-width: 50rem)
+    {
+        .img2{width: 20rem;}
+    }
+    @media  (max-width: 50rem)
+    {
+        .img{width: 20rem;}
+    }
+    @media  (max-width: 50rem)
+    {
+        .imgs-destination-sud{width: 5rem;}
+    }
+    @media  (max-width: 50rem)
+    {
+        .paragraphe-destination-mars-sud{width: 1rem;}
+    }
+    @media  (max-width: 50rem)
+    {
+        .calendar{width: 10rem;}
+    }
+    
+/**créer un compte.html, header !**/
+@keyframes slidein{
+    from{
+        transform: translateX(-5vw);
+    }
+    to{
+        transform: translateX(5vw);
+    }
+}
+.h1-create-account{
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 0.8rem;
+    background-color: goldenrod;
+    color: white;
+    width: 26rem;
+    border-radius: 3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    animation: 10s linear 1s infinite alternate slidein;
+}
+.mention-obligatoire-create-account{
+background-color: goldenrod;
+color: white;
+width: 25%;
+margin-left: auto;
+margin-right: auto;
+padding: 1rem;
+border-radius: 1rem;
+display: flex;
+text-align: center;
+justify-content: center;
+}
+.form-new-account{
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    width:20rem;
+    margin:1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+form.form-example {
+  display: table;
+}
+div.form-example {
+  display: table-row;
+}
+label,
+input {
+  display: table-cell;
+  margin-bottom: 1rem;
+}
+label {
+  padding-right: 1rem;
+}
+/*DestinationMarsSud.HTML*/
+.img-presentation-DMS{
+    background-color: goldenrod;
+    width:20rem;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    border-radius: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.phrase-accroche-destination-mars-sud{
+    max-width: 100%;
+    background-color: goldenrod;
+    color: white;
+    width: 60rem;
+    height: 8rem;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    animation: imgdestsud1, 4s;
+}
+.img-1-destination-sud{
+    border: solid;
+    border-color: goldenrod;
+    width: 20rem;
+    max-width: 100%;
+}
+.img-2-destination-sud{
+    border: solid;
+    border-color: goldenrod;
+    width: 20rem;
+    max-width: 100%;
+}
+.img-3-destination-sud{
+    border: solid;
+    border-color: goldenrod;
+    width: 20rem;
+    max-width: 100%;
+}
+.img-4-destination-sud{
+    border: solid;
+    border-color: goldenrod;
+    width: 20rem;
+    max-width: 100%;
+}
+.img-1-2-destination-sud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.img-3-4-destination-sud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.paragraphe-destination-mars-sud{
+    font-size: 1rem;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: goldenrod;
+    color: white;
+    width: 20rem;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+.h2-your-voyage{
+    color: white;
+    background-color: goldenrod;
+    width: 20rem;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.your-voyage{
+    display: flex;
+    justify-content: center;
+}
+.h3-dms{
+    color: white;
+    background-color: goldenrod;
+    width: 20rem;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.number-of-voyagers{
+    display: flex;
+    justify-content: center;
+}
+.dms-validation{
+    display: flex;
+    justify-content: center;
+}
+.calendar {
+    font-size: 0.5rem;
+    max-width: 100%;
+    color: white;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    gap: 1rem;
+    width: 20rem;
+    border: 1rem solid goldenrod;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 3rem white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.month {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.weekdays, .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    
+}
+.weekdays div, .days div {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.weekdays div {
+    background-color: goldenrod;
+    font-weight: bold;
+}
+.days .day {
+    background-color: goldenrod;
+}
+.days .empty {
+    background-color: transparent;
+}
+/*Fin du CSS*/
